@@ -1,10 +1,9 @@
-// src/components/Gallery.js
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import axios from 'axios';
 import Image from './Image';
 import Spinner from './Spinner';
 
-const accessKey = 'Hdj7IskPc5dYN4RRaRzyvpuM9M5bEo3ac11sq5EfVVQ';  // Replace with your Unsplash access key
+const accessKey = 'Hdj7IskPc5dYN4RRaRzyvpuM9M5bEo3ac11sq5EfVVQ';  
 
 const Gallery = () => {
     const [images, setImages] = useState([]);
