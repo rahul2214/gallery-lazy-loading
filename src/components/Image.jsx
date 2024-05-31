@@ -1,4 +1,3 @@
-// src/components/Image.js
 import React, { useRef, useEffect, useState } from 'react';
 
 const Image = ({ src, alt }) => {
